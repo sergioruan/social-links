@@ -36,8 +36,7 @@ main {
     
 }
 #imgPerfil {
-    height: 90px;
-    width: 90px;
+    width: 7rem;
     border-radius: 50%;
 }
 #infos {
@@ -80,4 +79,11 @@ main {
     background-color: var(--green);
     color: var(--grey-900);
     transition: 0.7s;
+}
+
+@media (max-width: 375px) {
+    #linksPage {
+        width: 80vw;
+        height: 80vh;
+    }    
 }
